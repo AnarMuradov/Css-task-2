@@ -1,0 +1,70 @@
+.card {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 50px auto;
+}
+.img img {
+  position: absolute;
+  width: 498px;
+  z-index: 0;
+}
+.iconleft {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  width: 52px;
+  height: 73px;
+  bottom: 160px;
+  left: 12px;
+  font-size: 50px;
+}
+.iconright {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  width: 52px;
+  height: 73px;
+  bottom: 160px;
+  left: 455px;
+  font-size: 50px;
+}
+.DTV {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  background-color: rgba(24, 148, 160, 0.8);
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  bottom: 66px;
+}
+.date {
+  display: inline-block;
+}
+.time {
+  display: inline-block;
+  margin-left: 15px;
+}
+.views {
+  display: inline-block;
+  margin-left: 30px;
+}
+.info {
+  position: absolute;
+  height: 67px;
+  width: 498px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px 24px;
+}
+.card:hover {
+  transition: 500ms;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
